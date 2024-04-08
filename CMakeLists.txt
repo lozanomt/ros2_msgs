@@ -17,6 +17,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 # Generate message and service sources
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Result.msg"
   "srv/RequestResult.srv"
 )
 
